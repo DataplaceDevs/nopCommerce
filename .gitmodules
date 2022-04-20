@@ -7,3 +7,6 @@
 [submodule "src/Plugins/Nop.Plugin.Api"]
 	path = src/Plugins/Nop.Plugin.Api
 	url = https://github.com/DataplaceDevs/api-for-nopcommerce.git
+[submodule "src\\Plugins\\NopBrasil.Plugin.Customer.Documents"]
+	path = src\\Plugins\\NopBrasil.Plugin.Customer.Documents
+	url = https://DataplaceDevs@dev.azure.com/DataplaceDevs/Nop/_git/NopBrasil.Plugin.Customer.Documents
