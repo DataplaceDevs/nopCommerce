@@ -10,3 +10,6 @@
 [submodule "src\\Plugins\\NopBrasil.Plugin.Customer.Documents"]
 	path = src\\Plugins\\NopBrasil.Plugin.Customer.Documents
 	url = https://DataplaceDevs@dev.azure.com/DataplaceDevs/Nop/_git/NopBrasil.Plugin.Customer.Documents
+[submodule "src/Plugins/Nop.Dataplace.Plugin.Customer.Documents.MX"]
+	path = src/Plugins/Nop.Dataplace.Plugin.Customer.Documents.MX
+	url = https://DataplaceDevs@dev.azure.com/DataplaceDevs/Nop/_git/Nop.Dataplace.Plugin.Customer.Documents.MX
