@@ -17,6 +17,10 @@ WORKDIR /src/Plugins/Nop.Plugin.Api/Nop.Plugin.Api
 RUN dotnet build Nop.Plugin.Api.csproj
 WORKDIR /src/Plugins/NopBrasil.Plugin.Payments.PagSeguro
 RUN dotnet build NopBrasil.Plugin.Payments.PagSeguro.csproj
+WORKDIR /src/Plugins/NopBrasil.Plugin.Customer.Documents
+RUN dotnet build NopBrasil.Plugin.Customer.Documents.csproj
+WORKDIR /src/Plugins/Nop.Dataplace.Plugin.Customer.Documents.MX
+RUN dotnet build Nop.Dataplace.Plugin.Customer.Documents.MX.csproj
 WORKDIR /src/Plugins/NopBrasil.Plugin.Shipping.Correios
 RUN dotnet build NopBrasil.Plugin.Shipping.Correios.csproj
 WORKDIR /src/Plugins/Nop.Plugin.DiscountRules.CustomerRoles
